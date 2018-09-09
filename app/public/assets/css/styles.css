@@ -1,0 +1,84 @@
+html,body {
+  padding:0;margin:0;
+  background-blend-mode: darken;
+  background: rgba(70, 72, 82, 0.3);
+  background-image: url("https://tiranatoday.com/wp-content/uploads/2017/08/laughing.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.wrap {
+  font:12px Arial, san-serif;
+  background-color: white;
+  height: 100px;
+  padding: 50px;
+  border: 1px solid red;
+ 
+}
+h1.header {
+  padding-left:5px;
+  margin:20px 0 0;
+  text-align: center;
+
+}
+form .statement {
+  display:block;
+  color: rgb(170, 52, 52);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 30px 0 0 5px;
+  margin-bottom:10px;
+}
+form .likes {
+  list-style:none;
+  width:100%;
+  margin:0;
+  padding:0 0 35px;
+  display:block;
+  border-bottom:2px solid #efefef;
+}
+form .likes:last-of-type {border-bottom:0;}
+form .likes:before {
+  content: '';
+  position:relative;
+  top:11px;
+  left:9.5%;
+  display:block;
+  background-color:#efefef;
+  height:4px;
+  width:78%;
+}
+form .likes li {
+  display:inline-block;
+  width:19%;
+  text-align:center;
+  vertical-align: top;
+}
+form .likes li input[type=radio] {
+  display:block;
+  position:relative;
+  top:0;
+  left:50%;
+  margin-left:-6px;
+  
+}
+form .likes li label {width:100%;}
+form .buttons {
+  margin:30px 0;
+  padding:0 4.25%;
+  text-align:right
+} 
+form .buttons button {
+  padding: 5px 10px;
+  background-color: #67ab49;
+  border: 0;
+  border-radius: 3px;
+}
+form .buttons .clear {background-color: #e9e9e9;}
+form .buttons .submit {background-color: #67ab49;} 
+form .buttons .clear:hover {background-color: #ccc;}
+form .buttons .submit:hover {background-color: #707070;} 
