@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="/Users/gearyjohnson/Documents/Homework/friend_finder/app/public/assets/css/styles.css">
+</head>
+<body>
+
+
+<div class="wrap">
+    <form method="POST" action="/submit">
+  
+      <div class="form-group">
+
+          <div class="form-group">
+              <label for = 'name'>Name</label>
+              <input type='text' name='name'>
+          </div>
+
+            <label for="question1">
+              <%=   question[0].question  %>
+            </label>
+
+            <ul class='likes'>
+                <li>
+                  <input type="radio" name="likes" value="5">
+                  <label>Love it <3</label>
+                </li>
+                <li>
+                  <input type="radio" name="likes" value="4">
+                  <label>Like it</label>
+                </li>
+                <li>
+                  <input type="radio" name="likes" value="3">
+                  <label>Meh</label>
+                </li>
+                <li>
+                  <input type="radio" name="likes" value="2">
+                  <label>Not a fan</label>
+                </li>
+                <li>
+                  <input type="radio" name="likes" value="1">
+                  <label>Hated it!!</label>
+                </li>
+              </ul>
+
+            <label  for="question2">
+              <%=   question[1].question  %>
+            </label>
+            <ul class='likes'>
+                <li>
+                  <input type="radio" name="likes" value="5">
+                  <label>Love it <3</label>
+                </li>
+                <li>
+                  <input type="radio" name="likes" value="4">
+                  <label>Like it</label>
+                </li>
+                <li>
+                  <input type="radio" name="likes" value="3">
+                  <label>Meh</label>
+                </li>
+                <li>
+                  <input type="radio" name="likes" value="2">
+                  <label>Not a fan</label>
+                </li>
+                <li>
+                  <input type="radio" name="likes" value="1">
+                  <label>Hated it!!</label>
+                </li>
+              </ul>
+   
+</div>
+      <div class="buttons">
+        <button class="clear">Clear</button>
+        <button class="submit">Submit</button>
+      </div>
+    </form>
+  </div>
+</body>
+  </html>
+
+
