@@ -20,6 +20,3 @@ CREATE TABLE respond (
 	PRIMARY KEY (id),
 	FOREIGN KEY (question_id) REFERENCES question(id)
 );
-
-add time:
-ALTER TABLE respond ADD d TIMESTAMP;
